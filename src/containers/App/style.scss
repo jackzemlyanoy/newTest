@@ -1,0 +1,22 @@
+.App {
+  &-content {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+
+  &-clientsList {
+    flex-grow: 1;
+    padding-right: 1rem;
+  }
+
+  &-clientsInfo {
+    padding-left: 1rem;
+    margin-right: 1rem;
+    min-width: 55vw;
+    height: 95vh;
+    background-color: gainsboro;
+    border-radius: 5px;
+  }
+}
