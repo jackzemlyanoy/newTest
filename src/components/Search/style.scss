@@ -1,14 +1,27 @@
 .Search{
   display: flex;
   padding-bottom: 5px;
+  position: relative;
+  & i{
+    position: absolute;
+    &.fas {
+      width: 26px;
+      height: 26px;
+      line-height: 26px;
+      text-align: center;
+      right: 30px;
+      color: #c4cdc7;
+    }
+  }
 
   &-input{
     outline: none;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-radius: 5px;
     border: 1px solid gainsboro;
-    padding-left: 2px;
+    width: 98%;
+    padding: 5px;
   }
+
   &-submit{
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;

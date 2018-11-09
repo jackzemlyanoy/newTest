@@ -47,8 +47,8 @@ class ClientsList extends Component {
                             <div className="ClientsList-item-container">
                                 <img src={general.avatar} alt="" />
                                 <div className="ClientsList-item-info">
-                                    <strong>Client Name: { general.firstName } {general.lastName}</strong> <br />
-                                    <b>Client Post: { job.title }</b>
+                                    <b> Client Name: </b>{ general.firstName } {general.lastName} <br />
+                                    <b> Client Post: </b> { job.title }
                                 </div>
                             </div>
                         </li>

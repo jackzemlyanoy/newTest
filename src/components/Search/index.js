@@ -7,9 +7,7 @@ import './style.scss';
 const Search = ({ searchQuery, onSearchSubmit, onSearchChange }) => (
     <form action="/" className="Search" onSubmit={onSearchSubmit}>
         <input type="search" placeholder="Search..." className="Search-input" onChange={onSearchChange} value={searchQuery} />
-        <button type="submit" className="Search-submit">
-            Search
-        </button>
+        <i className="fas fa-search"></i>
     </form>
 );
 
