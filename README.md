@@ -1,5 +1,15 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+To start this app you need to download or clone
+### `git clone https://github.com/jackzemlyanoy/newTest#npm-start`
+this repository [https://github.com/jackzemlyanoy/newTest#npm-start](https://github.com/jackzemlyanoy/newTest#npm-start)
+, open your Git Bash or command line,
+In the project directory and run command:                                                                                            
+### `npm install`
+
+After the installation you can run the app by the command:
+### `npm start`
+
 ## Available Scripts
 
 In the project directory, you can run:
