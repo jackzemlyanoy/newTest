@@ -31,6 +31,7 @@ export const getFilteredClientsList = createSelector(
     clientsList
       .filter(client =>
         client
+          .deleteIn(['general', 'avatar'])
           .toString()
           .toLowerCase()
           .includes(searchQuery),

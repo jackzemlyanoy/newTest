@@ -19,7 +19,11 @@ const LazyApp = React.lazy(() => import('./containers/App/App'));
 ReactDOM.render(
   <Provider store={store}>
     <Suspense
-      fallback={<Loader className="Loader" type="Oval" color="#FFDE1D" height="100" width="100" />}
+      fallback={
+        <div className="Loader">
+          <Loader type="Oval" color="#FFDE1D" height="100" width="100" />
+        </div>
+      }
     >
       <LazyApp />
     </Suspense>
